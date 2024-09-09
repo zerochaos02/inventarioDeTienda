@@ -117,17 +117,6 @@ public class InventarioDeTienda {
         return opcion;
     }
 
-    public static String leerString(String mensaje) {
-        try {
-            Scanner scanner = new Scanner(System.in);
-            System.out.print(mensaje);
-            return scanner.nextLine();
-        } catch (Exception e) {
-            System.out.println("Error al leer la entrada: " + e.getMessage());
-            return "";
-        }
-    }
-
     public static int leerInt(String mensaje) {
         try {
             Scanner scanner = new Scanner(System.in);
